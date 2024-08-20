@@ -1,7 +1,7 @@
--- Active: 1723505711321@@127.0.0.1@5432@company
-DROP DATABASE IF EXISTS employees_db;
+-- Active: 1723505711321@@127.0.0.1@5432@departments_db
+DROP DATABASE IF EXISTS departments_db;
 
-CREATE DATABASE employees_db;
+CREATE DATABASE departments_db;
 
 \c employees_db;
 
