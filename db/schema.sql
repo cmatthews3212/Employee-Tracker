@@ -1,4 +1,4 @@
--- Active: 1723505711321@@127.0.0.1@5432
+-- Active: 1723505711321@@127.0.0.1@5432@company
 DROP DATABASE IF EXISTS employees_db;
 
 CREATE DATABASE employees_db;
@@ -22,6 +22,6 @@ CREATE TABLE employee (
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INTEGER NOT NULL,
-    mangager_id INTEGER
+    manager_id INTEGER
 )
 
