@@ -1,3 +1,4 @@
+-- Active: 1723505711321@@127.0.0.1@5432
 DROP DATABASE IF EXISTS employees_db;
 
 CREATE DATABASE employees_db;
