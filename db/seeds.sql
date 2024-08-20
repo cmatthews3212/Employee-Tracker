@@ -28,3 +28,7 @@ VALUES  ('Christina', 'Andreola', 1, 101),
         ('Josseline', 'Agularia', 6, 101),
         ('Kris', 'Kolody', 7, 101);
         
+
+SELECT * FROM department;
+SELECT * FROM role;
+SELECT * FROM employee;
